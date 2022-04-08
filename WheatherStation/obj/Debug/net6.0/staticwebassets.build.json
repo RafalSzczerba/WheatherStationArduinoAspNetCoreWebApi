@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mdEgPDLvD4EcETv/LJPMSI9bAyM31xrkB+jmHmWJyLM=",
+  "Source": "WheatherStation",
+  "BasePath": "_content/WheatherStation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
