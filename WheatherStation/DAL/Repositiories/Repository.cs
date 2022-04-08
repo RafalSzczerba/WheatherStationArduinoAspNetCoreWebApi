@@ -24,11 +24,7 @@ namespace WheatherStation.DAL.Repositiories
         {
             return await _entities.ToListAsync();
         }
-        public async Task<T> FindById(int id)
-        {
-            return await _entities.SingleOrDefaultAsync(s => s.Id == id);
-        }
-
+       
         public Task<bool> isExists(int id)
         {
             return _entities.AnyAsync(x => x.Id == id);
@@ -57,6 +53,11 @@ namespace WheatherStation.DAL.Repositiories
         {
             var changes = await _context.SaveChangesAsync();
             return changes > 0;
+        }
+
+        public async Task<T> FindLastData()
+        {
+            return await _entities.OrderBy(x => x.Id).LastOrDefaultAsync();
         }
     }
 }

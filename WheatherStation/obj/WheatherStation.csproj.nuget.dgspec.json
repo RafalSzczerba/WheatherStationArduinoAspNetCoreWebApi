@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStation\\WheatherStation\\WheatherStation.csproj": {}
+    "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStationArduinoAspNetCoreWebApi\\WheatherStation\\WheatherStation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStation\\WheatherStation\\WheatherStation.csproj": {
+    "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStationArduinoAspNetCoreWebApi\\WheatherStation\\WheatherStation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStation\\WheatherStation\\WheatherStation.csproj",
+        "projectUniqueName": "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStationArduinoAspNetCoreWebApi\\WheatherStation\\WheatherStation.csproj",
         "projectName": "WheatherStation",
-        "projectPath": "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStation\\WheatherStation\\WheatherStation.csproj",
+        "projectPath": "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStationArduinoAspNetCoreWebApi\\WheatherStation\\WheatherStation.csproj",
         "packagesPath": "C:\\Users\\Rafal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStation\\WheatherStation\\obj\\",
+        "outputPath": "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStationArduinoAspNetCoreWebApi\\WheatherStation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafal\\AppData\\Roaming\\NuGet\\NuGet.Config",

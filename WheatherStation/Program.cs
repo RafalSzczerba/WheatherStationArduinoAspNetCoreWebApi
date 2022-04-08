@@ -4,12 +4,16 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Identity.Web;
 using WheatherStation.DAL.Context;
+using WheatherStation.DAL.Repositiories;
+using WheatherStation.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 var connetionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connetionString));
-
+builder.Services.AddTransient<IArduinoDbService, ArduinoDbService>();
+builder.Services.AddTransient<IArduinoDbService, ArduinoDbService>();
+builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(Repository<>));
 // Add services to the container.
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
@@ -31,7 +35,7 @@ using (var scope = app.Services.CreateScope())
 {
     var context = scope?.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     context?.Database.Migrate();
-    SeedData.SeedArduinoData(context);
+    //SeedData.SeedArduinoData(context);
 
 }
 

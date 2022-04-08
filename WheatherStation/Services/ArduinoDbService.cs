@@ -15,6 +15,7 @@ namespace WheatherStation.Services
         public async Task AddData(Arduino arduino)
         {
             await _arduinoRepository.Create(arduino);
+            await _arduinoRepository.Save();
         }
 
         public async Task<IEnumerable<Arduino>> GetAllArduinoData()
@@ -29,9 +30,9 @@ namespace WheatherStation.Services
                 .Where(s => s.Created >= dateFrom && s.Created < dateTo).ToListAsync();
         }
 
-        public async Task<Arduino> GetDataById(int id)
+        public async Task<Arduino> GetLastData()
         {
-            return await _arduinoRepository.FindById(id);
+            return await _arduinoRepository.FindLastData();
         }
     }
 }

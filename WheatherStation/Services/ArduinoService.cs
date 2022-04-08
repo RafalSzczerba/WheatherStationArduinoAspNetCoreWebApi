@@ -45,7 +45,7 @@ namespace WheatherStation.Services
                 //This should output "Hello world" to the console window
                 Console.WriteLine(str);
             }
-            return
+            return "elo";
         }
 
         public Task WriteMeasureToDataBase()

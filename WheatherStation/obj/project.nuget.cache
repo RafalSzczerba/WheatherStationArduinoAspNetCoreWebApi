@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hiTXnPrQOxNY5/cyRUCmi6ZSmwF5E4gM4VwNKMWLiySlAvLmu/u6Ld9paM811TO3M+zaiGQeiCuiCY71lEn2hQ==",
+  "dgSpecHash": "AuZECj3hnRwir7W6LMKBG2FSZkHj61uR0gfDBN3HphzAEi6gQU2+HQMxyWyFCOCt2Mo10UR6bPvh8tIr3K+0YQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStation\\WheatherStation\\WheatherStation.csproj",
+  "projectFilePath": "C:\\Users\\Rafal\\Desktop\\WheatherStation\\WheatherStationArduinoAspNetCoreWebApi\\WheatherStation\\WheatherStation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafal\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\Rafal\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
